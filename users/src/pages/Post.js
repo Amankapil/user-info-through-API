@@ -46,7 +46,7 @@ const Post = (id) => {
   return (
     <>
       <div className="container">
-        <h1>{gender} <img src={post.picture} alt="" /> {post.picture}</h1>
+        <h1>{gender}</h1>
         <h1>{post.picture}</h1>
       </div>
       <br />

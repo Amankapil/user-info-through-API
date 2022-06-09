@@ -22,8 +22,11 @@ const App = () => {
     // </Router>
     <Router>
       <Switch>
+        <div className="container border mt-4">
+
         <Route exact path="/" component={Home} />
         <Route path="/post/:gender/" component={Post} />
+        </div>
         {/* <Post/> */}
       </Switch>
     </Router>

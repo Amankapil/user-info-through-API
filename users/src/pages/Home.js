@@ -42,11 +42,11 @@ const Home = () => {
             <tbody>
               {posts.map((el, pos) => (
                 // <article key={el.id}>
-                <tr key={pos}>
+                <tr key={pos} className = "fonts">
                   <th scope="row">{el.id.name}</th>
-                  <td>
-                    <Link
-                      to={`/post/ ph.no = ${el.phone}  dob = ${el.dob.date}`}
+                  <td class="text-decoration-none">
+                    <Link class="text-decoration-none"
+                      to={`/post/ ph.no = ${el.phone}     dob = ${el.dob.date}`}
                     >
                       {el.name.title + " " + el.name.first + " " + el.name.last} 
                     </Link>

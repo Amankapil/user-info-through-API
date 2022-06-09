@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+.fonts td{
+  /* list-style: none;
+  text-decoration: none; */
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
